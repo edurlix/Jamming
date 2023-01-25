@@ -13,7 +13,7 @@ export default class App extends React.Component {
       playlistName: 'My Playlist',
       playlistTracks: []
     };
-    
+
     this.addTrack = this.addTrack.bind(this);
     this.removeTrack = this.removeTrack.bind(this);
     this.updatePlaylistName = this.updatePlaylistName.bind(this);
@@ -83,3 +83,8 @@ export default class App extends React.Component {
     );
   }
 }
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
