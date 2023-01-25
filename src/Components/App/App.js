@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
 import { SearchBar } from '../SearchBar/SearchBar';
 import { SearchResults } from '../SearchResults/SearchResults';
@@ -83,8 +82,3 @@ export default class App extends React.Component {
     );
   }
 }
-
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
