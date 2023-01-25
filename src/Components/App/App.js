@@ -5,7 +5,7 @@ import { SearchResults } from '../SearchResults/SearchResults';
 import { Playlist } from '../Playlist/Playlist';
 import Spotify from '../../util/Spotify';
 
-export default class App extends React.Component {
+class App extends React.Component {
   constructor(props){
     super(props);
     this.state = { searchResults: [],
@@ -82,3 +82,5 @@ export default class App extends React.Component {
     );
   }
 }
+
+export default App;

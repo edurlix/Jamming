@@ -1,5 +1,5 @@
 const clientId = 'fb36d8736c344f4bab1eae62723a54cd';
-const redirectUri = 'https://edurlix.github.io/Jamming';
+const redirectUri = 'https://edurlix.github.io/Jamming/';
 let accessToken;
 
 const Spotify = {
